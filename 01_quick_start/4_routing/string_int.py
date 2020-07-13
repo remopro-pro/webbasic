@@ -11,7 +11,7 @@ print("鈴木" + "さん")
 print(name + "さん")
 
 # strとintは結合できないので、以下はエラーになる
-#print(name + "さんは、" + age + "歳です")
+#print(name.py + "さんは、" + age + "歳です")
 
 age_str = "20"  # stringの「20」
 # age_strはintではなくstrなので、結合できる
