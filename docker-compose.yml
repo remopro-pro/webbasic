@@ -9,3 +9,19 @@ services:
     tty: true
   redis:
     image: "redis:alpine"
+  db:
+    image: "mysql:5.7"
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_DATABASE: webbasic
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: pass1
+      TZ: 'Asia/Tokyo'
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
+    volumes:
+      - ./db/data:/var/lib/mysql
+      - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./db/sql:/docker-entrypoint-initdb.d
+      - ./db/log:/var/log/mysql
+    ports:
+      - 3306:3306
