@@ -1,1 +1,6 @@
 .idea/
+
+db/data/
+db/log/
+
+solr/data/

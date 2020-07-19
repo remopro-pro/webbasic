@@ -16,7 +16,6 @@ services:
       MYSQL_DATABASE: webbasic
       MYSQL_USER: user1
       MYSQL_PASSWORD: pass1
-      TZ: 'Asia/Tokyo'
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
     volumes:
       - ./db/data:/var/lib/mysql
