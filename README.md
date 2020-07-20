@@ -1,6 +1,8 @@
 # Webプログラミング30日入門講座
 
 ## 準備
+- PyCharm Professionalのインストール（30日無料）
+- PyCharmの初期設定
 - GitHubアカウントを作成
 - GitHubにSSH接続できるよう設定（[参考](https://qiita.com/0ta2/items/25c27d447378b13a1ac3)）
 
