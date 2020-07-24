@@ -7,8 +7,6 @@ services:
     volumes:
       - .:/code
     tty: true
-  redis:
-    image: "redis:alpine"
   db:
     image: "mysql:5.7"
     environment:
@@ -24,10 +22,5 @@ services:
       - ./db/log:/var/log/mysql
     ports:
       - 3306:3306
-  solr:
-    image: solr:8.5
-    ports:
-      - "8983:8983"
-    volumes:
-      - ./solr/data:/opt/solr/server/solr/mycores
-    restart: always
+  redis:
+    image: "redis:alpine"
