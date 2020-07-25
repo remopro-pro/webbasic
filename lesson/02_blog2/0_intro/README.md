@@ -7,8 +7,9 @@
 ## ステップ
 - Python
   - リスト(list)を知る
-  - クラス(class)を知る
+  - ディクショナリー（dictionary）を知る
   - 関数のキーワード引数を知る
+  - クラス(class)を知る
 - データベース（リレーショナルデータベース, RDBMS）
   -どんなものか知る
   - MySQLに触ってみる（CRUD操作。INSERT、SELECT、UPDATE、DELETE）
