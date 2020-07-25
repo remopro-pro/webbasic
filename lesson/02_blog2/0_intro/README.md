@@ -6,31 +6,15 @@
   
 ## ステップ
 - Python
-  - クラス(class)を知る
   - リスト(list)を知る
-- データベース（リレーショナルデータベース, RDBMS）とはどんなものか知る
-- MySQLに触ってみる
-- PythonからMySQLに接続してみる
-- FlaskからSQLAlchemyを使ってみる
+  - クラス(class)を知る
+  - 関数のキーワード引数を知る
+- データベース（リレーショナルデータベース, RDBMS）
+  -どんなものか知る
+  - MySQLに触ってみる（CRUD操作。INSERT、SELECT、UPDATE、DELETE）
+  - PythonからMySQLに接続してみる
+  - FlaskからSQLAlchemyを使ってみる
 - 投稿画面を作る
 - 確認画面を作る
 - DBへの登録処理をする
-- トップページで
-
-- 
-- Flaskでブラウザに表示させるには？
-  - →FlaskでHello Worldを表示する
-- FlaskでHTMLを使うには？
-  - →returnにHTMLを買いてみる
-- returnにHTMLを書くのはつらいから分離するには？
-  - →テンプレート機能を使う
-- トップページ、記事一覧ページ、記事詳細ページを表示させるには？
-  - →Flaskで複数のページを表示させる方法を調べる
-  - →テンプレートを使って、目的のHTMLを表示してみる
-  
-## 学んだこと
-- HTMLとはどんなものか
-- Pythonのprint、変数、文字列、関数
-- Flaskの起動
-- URLのルーティング
-- Flaskのテンプレート機能によるHTMLの分離
+- トップページで最新の記事を取得して表示する

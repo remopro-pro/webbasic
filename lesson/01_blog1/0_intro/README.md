@@ -9,6 +9,7 @@
   - →HTMLを直接ブラウザに表示してみる
 - Flaskでブラウザに表示させるには？
   - →FlaskでHello Worldを表示する
+  - →Flaskで書かれていることを理解するために、最低限のPython知識を速習する
 - FlaskでHTMLを使うには？
   - →returnにHTMLを買いてみる
 - returnにHTMLを書くのはつらいから分離するには？
