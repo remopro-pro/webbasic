@@ -1,1 +1,10 @@
 .idea/
+
+db/data/
+db/log/
+
+solr/data/
+
+# 手を動かして確認するとき、以下の形式ならgitの対象にならない
+work/*
+

@@ -1,2 +1,3 @@
-flask
-redis
+flask==1.1.2
+redis==3.5.3
+flask-sqlalchemy==2.4.4
